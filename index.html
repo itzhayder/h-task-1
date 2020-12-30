@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Round 1: Task 1</title>
+  </head>
+  <body>
+    <h1>Round 1: Task 1</h1>
+
+    <form id="form">
+      <input type="text" name="name" placeholder="Name" id="input-name" required>
+      <input type="email" name="email" placeholder="Email" id="input-email" required>
+      <input type="url" name="homepage" placeholder="Homepage" id="input-homepage" required>
+      <button type="submit" id="submit">Save</button>
+    </form>
+
+    <div id="contacts"></div>
+    <p><ul><li>First</li><li>Second</li></ul></p>
+    <p>Some <span>text</span></p>
+    <template id="contact-template">
+      <div class="contact">
+        <h2>Name</h2>
+        <p class="email">email@example.com</p>
+        <p class="homepage"><a href="#">Homepage URL</a></p>
+      </div>
+    </template>
+    <script src="template.js"></script>
+  </body>
+</html>
